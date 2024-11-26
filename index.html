@@ -4,8 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Street Yoga</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+   <header>
+        <span>Main Street Yoga</span>
+        <nav id="desktop-nav">
+            <menu>
+                <li>
+                    <a href="">Classes</a>
+                </li>
+                <li>
+                    <a href="">Schedule</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a class="active-page" href="">FAQ</a>
+                </li>
+            </menu>
+        </nav>
+        <nav id="mobile-nav">
+            <button id="menu-button">
+                <img src="assets/imgs/hamburger.svg"> <br>
+                <span>Menu</span>
+            </button>
+            <div id="overlay-menu-container">
+                <div id="overlay-menu">
+                    <menu>
+                        <li>
+                            <a href="">Classes</a>
+                        </li>
+                        <li>
+                            <a href="">Schedule</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a class="active-page" href="">FAQ</a>
+                        </li>
+                    </menu>
+                    <button id="close-menu">
+                        <img src="assets/imgs/close.svg"><br>
+                        <span>Close</span>
+                    </button>
+                </div>
+            </div>
+
+        </nav>
+   </header>
+   <main>
+        <h1>Frequently Asked Questions</h1>
+        <article class="faq-question">
+            <button class="closed">What is Yoga?</button>
+            <p>The word yoga is derived from the Sanskrit word meaning union. It is an ancient system of physical and psychic practice that originated during the Indus Valley civilization in South Asia. The first written records of this methodology appeared around 200 BC in Yogasutra of Patanjali. The system consists of the eightfold path, or Asthangayoga. A contemporary interpretation of yoga describes yoga as a systematic practice aimed at developing harmony in the body, mind, and environment.</p>
+        </article>
+        <article class="faq-question">
+            <button class="closed">I have never tried yoga before but want to do it now. Where should I start?</button>
+            <p>You can start yoga with any of the eight principles. Whatever suits your temperament and whatever instructor you have, begin from that aspect. Most popular forms of yoga start with low physical impact postures (asanas). If the asanas are practiced regularly, the body and the mind will become flexible. With patience and discipline, one will find new energy flowing through the body's systems. Some systems of yoga such as Kundalini yoga start with meditation while others such as Kriya yoga start with breathing techniques.</p>
+        </article>
+        <article class="faq-question">
+            <button class="closed">Are yoga classes safe?</button>
+            <p>Yes. Yoga classes are generally safe. However, attend one or two trial sessions before making the decision. It is appropriate to ask the teacher how many years of teaching experience he or she has.</p>
+        </article>
+        <article class="faq-question">
+            <button class="closed">Do I need special equipment for yoga practice?</button>
+            <p>Hardly. All you need is a nonslip yoga mat that is long enough to lay fully stretched on your back.</p>
+        </article>
+   </main>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>    
+<script src="assets/js/script.js"></script>    
 </body>
 </html>
